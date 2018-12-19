@@ -1,0 +1,16 @@
+@media screen and (max-width: 479px) {
+   .nav{
+       width: 2vw;
+   }
+   .title{
+       width: 2vw;
+       height: 2vw;
+       left: 2vw;
+       top: 2vw;
+       font-size: 2vw;
+   }
+   .earth{
+       width: 3vw;
+       height: 3vw;
+   }
+}

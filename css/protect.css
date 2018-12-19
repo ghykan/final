@@ -1,0 +1,346 @@
+body{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.nav{
+    width: 100%;
+    height: 45px;
+    background-color: whitesmoke;
+    position: fixed;
+    z-index: 999;
+}
+.title{
+    width: 500px;
+    height: 45px;
+    position: absolute;
+    font-family: 'Quantico', sans-serif;
+    font-size: 30px;
+    left: 20px;
+    top: 5px;
+    color: #858988;
+    font-weight: bold;
+}
+.AND{
+    color: #A9D1EA;
+}
+#logo{
+    width: 60px;
+    height: 60px;
+    background-image: url("../images/earth home buttom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 95%;
+    margin-top: -10px;
+    position: absolute;
+
+}
+#menu{
+    position: absolute;
+    right: 50px;
+    width: 400px;
+    height: 40px;
+    top: 40%;
+    font-family: 'Quantico', sans-serif;
+    color: #A9D1EA;
+    font-weight: bold;
+    display: none;
+
+
+}
+li{
+    display: inline-block;
+    padding-right: 30px;
+    text-align: center;
+}
+li:hover{
+    border-bottom: solid 2px #66cccc;
+    cursor: pointer;
+
+}
+a:link{
+    text-decoration: none;
+    color:#A9D1EA ;
+}
+a:active{
+    color: #A9D1EA;
+}
+a:visited{
+    text-decoration: none;
+    color:#A9D1EA ;
+}
+
+#battle{
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    background-color: #75D6C5;
+}
+.cc{
+    width: 100%;
+    height: 700px;
+    top: 51px;
+    position: absolute;
+    background-image: url("../images/protect3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.solution{
+    width: 900px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -450px;
+    font-family: 'Quantico', sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 1.2em;
+}
+.bm{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -95px;
+    top: 200px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 80px;
+    color: white;
+    font-weight: bolder;
+}
+.scrolldown{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    margin-left: -5px;
+    top: 600px;
+    /*background-color: #ef888c;*/
+}
+.chevron {
+    position: absolute;
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: white;
+}
+
+.chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+    25% {
+        opacity: 1;
+
+    }
+    33% {
+        opacity: 1;
+        transform: translateY(30px);
+    }
+    67% {
+        opacity: 1;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+}
+#table{
+    width: 100%;
+    height: 1050px;
+    position: absolute;
+    top: 750px;
+}
+.line1{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    background-color: white;
+}
+.line2{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 150px;
+    background-color:#75D6C5 ;
+}
+.line3{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 300px;
+    background-color: white;
+}
+.line4{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 450px;
+    background-color:#75D6C5 ;
+}
+.line5{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 600px;
+    background-color: white;
+}
+.line6{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 750px;
+    background-color:#75D6C5 ;
+}
+.line7{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 900px;
+    background-color: white;
+}
+.category1{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -100px;
+    font-family: 'Quantico', sans-serif;
+    color: #75D6C5;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.data1{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    font-family: 'Quantico', sans-serif;
+    color: #75D6C5;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.data2{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    font-family: 'Quantico', sans-serif;
+    color: #75D6C5;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.category2{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -100px;
+    font-family: 'Quantico', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.data3{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    font-family: 'Quantico', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.data4{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    font-family: 'Quantico', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#solve{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top:1800px;
+}
+.why{
+    width: 100%;
+    height: 100px;
+    background-color: #75D6C5;
+}
+.wc{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -120px;
+    font-family: 'Quantico', sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+}
+.compare{
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -450px;
+    color: #75D6C5 ;
+    font-family: 'Quantico', sans-serif;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+.gray{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background-image: url("../images/gray.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 400px;
+
+}
